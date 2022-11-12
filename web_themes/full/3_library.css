@@ -32,3 +32,102 @@
 {
 	border-radius: var(--card_radius);
 }
+
+[class*="gamelistentry_Installed"]
+{
+	color: var(--fg) !important;
+}
+
+[class*="collapseicon_CollapseIconParent_"] [class*="collapseicon_Container_"]
+{
+	stroke: var(--fg) !important;
+}
+
+[class*="libraryhomeshowcases_AddShowcaseRow_"]
+{
+	color: var(--accent) !important;
+}
+
+[class*="libraryhomeshowcases_AddShowcaseRow_"] svg line, 
+[class*="libraryhomeshowcases_AddShowcaseRow_"] svg circle
+{
+	stroke: var(--accent) !important;
+}
+
+._DialogInputContainer
+{
+	color: var(--accent_fg) !important;
+}
+
+[class*="appgrid_SortingDropDown_"] [class*="appgrid_SortingDropDownLabel_"]
+{
+	color: var(--fg) !important;
+}
+
+[class*="libraryhomenewupdates_Event_Title_"] [class*="libraryhomenewupdates_PartnerEventRowCapsule_TextTitle_"]
+{
+	color: var(--popover_fg) !important;
+}
+
+[class*="libraryhomenewupdates_GameIconAndName_"]
+{
+	background-color: var(--headerbar_bg) !important;
+}
+
+[class*="libraryhomenewupdates_GameIconAndName_"] [class*="libraryhomenewupdates_GameName_"]
+{
+	color: var(--accent_fg) !important;
+}
+
+.SVGIcon_Button > * {
+	stroke: var(--accent) !important;
+}
+
+[class*="appportrait_LibraryItemBoxSubscript_"]
+{
+	color: var(--accent_fg) !important;
+}
+
+[class*="gamelisthome_Bar_"]:hover [class*="gamelisthome_Label_"] {
+	color: var(--accent_bg) !important;
+}
+
+[class*="gamelisthome_Selected_"] [class*="gamelisthome_Label_"] {
+	color: var(--accent) !important;
+}
+
+[class*="libraryhomenewupdates_PartnerEventRowCapsule_Container_"]:hover [class*="libraryhomenewupdates_EventSummaryContainer_"] [class*="libraryhomenewupdates_EventSummaryText_"]
+{
+	color: var(--fg) !important;
+}
+
+[class*="gamelisthome_Bar_"]:hover [class*="gamelisthome_Icon_"]
+{
+	fill: var(--accent_bg) !important;
+}
+
+[class*="gamelisthome_Bar_"] [class*="gamelisthome_Icon_"]
+{
+	fill: var(--accent) !important;
+}
+
+[class*="appdetailsplaysection_MenuButton_"] [class*="appdetailsplaysection_DotDotDot_"] .SVGIcon_Information .I
+{
+	fill: var(--accent) !important;
+}
+
+[class*="appdetailsplaysection_MenuButton_"] SVGIcon_Settings path
+{
+	fill: var(--accent) !important;
+}
+
+[class*="appdetailsplaysection_GameStatRight_"] > * 
+{
+	color: var(--fg) !important;
+}
+
+[class*="appdetailsplaysection_PlayBarDetailLabel_"] [class*="appdetailsplaysection_AchievementCountLabel_"]
+{
+	color: var(--fg) !important;
+}
+

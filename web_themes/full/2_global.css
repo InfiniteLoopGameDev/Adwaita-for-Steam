@@ -38,3 +38,33 @@ div#responsive_page_template_content .game_background_glow {
 	background: var(--bg) !important;
 }
 
+body.v6 h2
+{
+	color: var(--fg) !important;
+}
+
+
+.gutter_header
+{
+	color: var(--fg) !important;
+}
+
+.btnv6_white_transparent > span
+{
+	color: #1c71d8 !important;
+}
+
+.content_hub_carousel_ctn .title
+{
+	color: var(--fg) !important;
+}
+
+.tab_item_name
+{
+	color: var(--fg) !important;
+}
+
+.discount_block .discount_final_price
+{
+	color: #5e5c64 !important;
+}
